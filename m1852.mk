@@ -9,8 +9,8 @@ $(call inherit-product, vendor/meizu/m1852/m1852-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage \
-		$(LOCAL_PATH)/overlay-m1852 \
-		$(LOCAL_PATH)/overlay-product
+    $(LOCAL_PATH)/overlay-m1852 \
+    $(LOCAL_PATH)/overlay-product
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -286,7 +286,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v27/arm64/arch-arm64-armv8-a/shared/vndk-sp/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++-v27.so \
-
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
