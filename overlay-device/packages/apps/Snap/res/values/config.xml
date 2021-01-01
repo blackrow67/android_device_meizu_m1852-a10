@@ -53,3 +53,4 @@
     <!-- Enable support for bokeh mode -->
     <bool name="support_bokeh_mode">true</bool>
 </resources>
+
