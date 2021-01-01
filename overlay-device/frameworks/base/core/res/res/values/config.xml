@@ -154,7 +154,7 @@
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     
-    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_screenBrightnessDoze">30</integer>
       
     <!-- If true, the doze component is not started until after the screen has been
          turned off and the screen off animation has been performed. -->
@@ -239,7 +239,6 @@
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
     <bool name="config_carrier_volte_available">true</bool>
-
 
     <string-array name="config_mobile_tcp_buffers">
         <item>"5gnr:2097152,6291456,16777216,512000,2097152,8388608"</item>
